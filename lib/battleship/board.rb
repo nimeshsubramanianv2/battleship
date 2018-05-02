@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'forwardable'
-
 module Battleship
   # Public: Board Class.
   class Board
@@ -117,7 +115,7 @@ module Battleship
       [x, y]
     end
 
-    # Internal: Generates a random from 0 to
+    # Internal: Generates a random from 0 to 9
     #
     # Returns an Integer number 0 - 9
     def rand_no
